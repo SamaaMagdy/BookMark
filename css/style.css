@@ -1,0 +1,51 @@
+*{
+    font-family:arial;
+}
+h3{
+    color:#AAA !important;
+    font-weight: 400px;
+}
+.information{
+    background-color:#eee ;
+    width: 98%;
+}
+input{
+    height: 30px!important;
+}
+span{
+    font-size: 14px;
+}
+.bats{
+   
+    width: 50% !important;
+    box-shadow: lg;
+}
+.pul{
+    width: 98%;
+    background-color:#eee;
+    background-image: linear-gradient(#eee, #FFF);
+}
+.btn2{
+    background-color: #910004;
+}
+
+.btn1:hover{
+    background-color: #0a3f77 !important;
+    border-color: #0a3f77 !important;
+    box-shadow: 2px 5px 5px rgb(138, 137, 137);
+
+}
+.btn2:hover{
+    background-color: #610205 !important;
+    border-color: #610205 !important;
+    box-shadow: 2px 5px 5px rgb(138, 137, 137);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn3{
+    background-color: #ebbd03;
+    border-color: #ebbd03;
+    color: #000;
+}

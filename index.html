@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="container">
+    <h3 class=" m-5 fw-bold">Bookmarker</h3>
+    <hr >
+    <div class=" information m-1 text-center m-auto mb-4">
+        <h4 class="p-5 fw-bold">Bookmark your favorite sites</h4>
+        <h6 class="fw-bold">Site Name</h6>
+        <input class="form-control w-75 m-auto" placeholder="BookMarket Name" id="bookmarkNameInput"/>
+        <h6 class="fw-bold mt-3">Site URL</h6>
+        <input type="email" class="form-control w-75 m-auto" placeholder="WebSite URL" id="webSiteURLInput"/>
+        <button onclick="addWebsite()" disabled id="addBtn" class="btn btn-primary mt-3 mb-5">Submit</button>
+    </div>
+    <input oninput="searchProduct(this.value)" type="search" placeholder="search" class="form-control w-50 m-auto mb-5 mt-5">
+    <div id="container">
+   
+</div>
+    <hr class="mb-4" >
+    <span class="text-muted ms-4 mt-5">© 2019<span class="fw-bold">Bookmarker Inc.</span> </span>
+</section>
+
+
+
+
+
+
+ <script src="js/main.js"></script>   
+</body>
+</html>
